@@ -17,6 +17,10 @@ img {
 }
 
 .links {
-    position: relative;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: lightslategray;
+    border-style: solid;
+    padding: 4px;
+    width: max-content;
 }

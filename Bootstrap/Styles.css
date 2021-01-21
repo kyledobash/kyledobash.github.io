@@ -9,12 +9,29 @@ html {
 
 .display-4 {
     font-weight:300;
+    animation-name: titleanimation;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes titleanimation {
+    0% {bottom: 200px;}
+    100% {bottom: 0px;}
 }
 
 
 .lead {
     font-style: italic;
     text-indent: 10px;
+    animation-name: subtitleanimation;
+    animation-duration: 1.5s;
+    position: relative;
+    animation-timing-function: ease-in;
+}
+
+@keyframes subtitleanimation {
+    0% {right: 300px; opacity: 0%;}
+    100% {right: 0px; opacity: 100%;}
 }
 
 .btn-group {

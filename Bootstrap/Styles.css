@@ -41,3 +41,19 @@ html {
     -o-box-shadow: -5px 5px   2.5px rgba(0,0,0,0.6);
     border-radius: 5px;
 }
+
+.title-logo {
+    max-width: 25px;
+    max-height: auto;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 235px;
+    bottom: 82px;
+    animation: logoanimation 2s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes logoanimation {
+    0% {transform: rotate(360deg);}
+  }

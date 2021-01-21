@@ -1,4 +1,4 @@
-img {
-    max-width: 10%;
-    max-height: auto;
+.card {
+    max-width: 540px;
+    margin: 0 auto;
 }
